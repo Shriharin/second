@@ -1,5 +1,7 @@
 Entry::Application.routes.draw do
 
+  resources :teams
+
   get "sessions/new"
 
   get "users/new"
